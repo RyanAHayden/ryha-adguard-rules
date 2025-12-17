@@ -1,28 +1,15 @@
 instagram.com##article:has-text(Follow)
-pixiv$document,empty
-artstation$document,empty
-deviantart$document,empty
-rule34$document,empty
-*$urlpath=porn$document,empty
 facebook.com##div:has(h2 span:has-text(Reels))
 facebook.com##div[aria-label*="View reel video"]
 facebook.com##video[src*="video-atl"]
 facebook.com##div[data-video-id]
-facebook.com##body:has(a[href*="/reels"])
-facebook.com##body:has(a[href*="/watch"])
-facebook.com##body:has(a[href*="/groups"])
-facebook.com##body:has(a[href*="/gaming"])
-facebook.com##body:has(a[href*="/pages"])
-facebook.com##body:has(a[href*="/events"])
-facebook.com##body:has(a[href*="/stories"])
-facebook.com##body:has(a[href*="/suggested"])
-facebook.com##body:has(a[href*="/friends"])
-facebook.com##body:has(a[href*="/notifications"])
 steamcommunity.com###page_1_row_2_template_threeSmall
-steamcommunity.com###AppHubContent
 steamcommunity.com##.profile_media_item.modalContentLink
 www.facebook.com##.m.vertically-snappable.displayed > div.m.bg-s2:nth-of-type(4)
 www.facebook.com##div.m.displayed:nth-of-type(14) > div.m:nth-of-type(1) > div.m.bg-s2:nth-of-type(1)
+pixiv$document,empty
+artstation$document,empty
+deviantart$document,empty
 facebook.com##[href^="/reel"] 
-||instagram.com/explore$document,empty
+steamcommunity.com###AppHubContent
 @@||youtube.com^$document,important
