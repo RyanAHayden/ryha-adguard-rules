@@ -1,0 +1,14 @@
+facebook.com##div:has(h2 span:has-text(Reels))
+facebook.com##div[aria-label*="View reel video"]
+facebook.com##video[src*="video-atl"]
+facebook.com##div[data-video-id]
+steamcommunity.com###page_1_row_2_template_threeSmall
+steamcommunity.com##.profile_media_item.modalContentLink
+www.facebook.com##.m.vertically-snappable.displayed > div.m.bg-s2:nth-of-type(4)
+www.facebook.com##div.m.displayed:nth-of-type(14) > div.m:nth-of-type(1) > div.m.bg-s2:nth-of-type(1)
+pixiv$document,empty
+artstation$document,empty
+deviantart$document,empty
+facebook.com##[href^="/reel"] 
+steamcommunity.com###AppHubContent
+@@||youtube.com^$document,important
